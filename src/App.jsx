@@ -1,12 +1,16 @@
 import './App.css';
-import ItemsListContainer from './componentes/ItemsListContainer/ItemsListContainer';
-import NavBar from './componentes/NavBar/NavBar';
+import Lifecycle from './components/Contador/Lifecycle';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+// import Contador from './components/Contador/Contador';
+import NavBar from './components/NavBar/NavBar';
 
 function App() {
+
   return (
-    <div className='container'>
-      <NavBar/>
-      <ItemsListContainer greetings='Bienvenido a mi proyecto'/>
+    <div className="container">
+      <NavBar />
+      <Lifecycle />
+      <ItemListContainer greetings="Bienvenido a mi proyecto" />
     </div>
   );
 };
